@@ -23,8 +23,8 @@ def end_game(ranran)
   puts("Sorry, you hit #{ranran}. Thanks for playing!")
 end
 
-def initial_round()
-  sum = deal_card + deal_card
+def initial_round(initial)
+  initial = deal_card + deal_card
   display_card_total(initial)
 end
 
