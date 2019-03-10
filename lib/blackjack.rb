@@ -37,7 +37,7 @@ def hit? (initial)
     nil
   else if d == 'h'
     deal_card = y
-    num += y 
+    initial += y 
   else
     invalid_command
     prompt_user
