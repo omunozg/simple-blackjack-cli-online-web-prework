@@ -6,7 +6,8 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total
+def display_card_total(numero)
+  puts("")
   
 end
 
