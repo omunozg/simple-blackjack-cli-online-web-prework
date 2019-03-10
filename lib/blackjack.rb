@@ -8,7 +8,6 @@ end
 
 def display_card_total(numero)
   puts("Your cards add up to #{numero}")
-  
 end
 
 def prompt_user
@@ -46,7 +45,6 @@ end
 
 def invalid_command
   puts ("Please enter a valid command")
-  prompt_user
 end
 
 #####################################################
