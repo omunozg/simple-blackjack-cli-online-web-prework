@@ -35,8 +35,13 @@ def hit? (initial_round)
   prompt_user
   get_user_input = d
   if d == 's'
+    nil
   else if d == 'h'
-    deal_card
+    deal_card = y
+    initial_round
+  else
+    invalid_command
+  end
 end
 
 def invalid_command
