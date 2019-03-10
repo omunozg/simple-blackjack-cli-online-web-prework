@@ -38,7 +38,7 @@ def hit? (num)
     nil
   else if d == 'h'
     deal_card = y
-    initial_round
+    num += y 
   else
     invalid_command
   end
